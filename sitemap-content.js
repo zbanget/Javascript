@@ -27,11 +27,11 @@
 // global variables
    var sortBy = "datenewest";         // default value for sorting ToC
    var tocLoaded = false;           // true if feed is read and ToC can be displayed
-   var numChars = 56;              // number of characters in post summary
+   var numChars = 250;              // number of characters in post summary
    var postFilter = '';             // default filter value
    var tocdiv = document.getElementById("bp_toc"); //the toc container
    var totalEntires =0; //Entries grabbed till now
-   var totalPosts =0; //Total number of posts in the blog.
+   var totalPosts =56; //Total number of posts in the blog.
 
 // main callback function
 
@@ -47,7 +47,8 @@ function loadtoc(json) {
          {
          var nextjsoncall = document.createElement('script');
          nextjsoncall.type = 'text/javascript';
-         nextjsoncall.setAttribute("src", "/feeds/posts/summary?&max-results=56&alt=json-in-script&callback=loadtoc");
+         startindex=totalEntires+1;
+         nextjsoncall.setAttribute("src", "/feeds/posts/summary?start-index=" + startindex + "&max-results=500&alt=json-in-script&callback=loadtoc");
          tocdiv.appendChild(nextjsoncall);
          }
       // main loop gets all the entries from the feed

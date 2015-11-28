@@ -30,8 +30,8 @@
    var numChars = 250;              // number of characters in post summary
    var postFilter = '';             // default filter value
    var tocdiv = document.getElementById("bp_toc"); //the toc container
-   var totalEntires =56; //Entries grabbed till now
-   var totalPosts =56; //Total number of posts in the blog.
+   var totalEntires =0; //Entries grabbed till now
+   var totalPosts =0; //Total number of posts in the blog.
 
 // main callback function
 

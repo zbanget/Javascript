@@ -1,10 +1,10 @@
 //PopAds Code
-var _pop = _pop || [];   _pop.push([&#39;siteId&#39;, 963710]);   _pop.push([&#39;minBid&#39;, 0.000000]);   _pop.push([&#39;popundersPerIP&#39;, 0]);   _pop.push([&#39;delayBetween&#39;, 0]);   _pop.push([&#39;default&#39;, false]);   _pop.push([&#39;defaultPerDay&#39;, 0]);   _pop.push([&#39;topmostLayer&#39;, false]);   (function() {     var pa = document.createElement(&#39;script&#39;); pa.type = &#39;text/javascript&#39;; pa.async = true;     var s = document.getElementsByTagName(&#39;script&#39;)[0];      pa.src = &#39;//c1.popads.net/pop.js&#39;;     pa.onerror = function() {       var sa = document.createElement(&#39;script&#39;); sa.type = &#39;text/javascript&#39;; sa.async = true;       sa.src = &#39;//c2.popads.net/pop.js&#39;;       s.parentNode.insertBefore(sa, s);     };     s.parentNode.insertBefore(pa, s);   })();
+var _pop = _pop || [];   _pop.push(['siteId', 963710]);   _pop.push(['minBid', 0.000000]);   _pop.push(['popundersPerIP', 0]);   _pop.push(['delayBetween', 0]);   _pop.push(['default', false]);   _pop.push(['defaultPerDay', 0]);   _pop.push(['topmostLayer', false]);   (function() {     var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;     var s = document.getElementsByTagName('script')[0];      pa.src = '//c1.popads.net/pop.js';     pa.onerror = function() {       var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;       sa.src = '//c2.popads.net/pop.js';       s.parentNode.insertBefore(sa, s);     };     s.parentNode.insertBefore(pa, s);   })();
 //Link Sumber
-if(document.location.protocol==&#39;http:&#39;){ var
-Tynt=Tynt||[];Tynt.push(&#39;cXIEhKYVSr4lJ5adbi-bpO&#39;);Tynt.i={&quot;ap&quot;:&quot;Link Sumber :&quot;}; (function(){var
-s=document.createElement(&#39;script&#39;);s.async=&quot;async&quot;;s.type=&quot;text/javascript&quot;;s.src=&#39;https://seocipsokbanget.googlecode.com/svn/linksumber.js&#39;;var
-h=document.getElementsByTagName(&#39;script&#39;)[0];h.parentNode.insertBefore(s,h);})(); }
+if(document.location.protocol=='http:'){ var
+Tynt=Tynt||[];Tynt.push('cXIEhKYVSr4lJ5adbi-bpO');Tynt.i={&quot;ap&quot;:&quot;Link Sumber :&quot;}; (function(){var
+s=document.createElement('script');s.async=&quot;async&quot;;s.type=&quot;text/javascript&quot;;s.src='https://seocipsokbanget.googlecode.com/svn/linksumber.js';var
+h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(); }
 // Current year
 function getCurrentYear(){var e=new Date;return e.getFullYear()}el=document.getElementById(&quot;current-year&quot;),el.innerHTML=getCurrentYear();
 // Back to top
